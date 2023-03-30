@@ -1,0 +1,224 @@
+
+*{
+    box-sizing: border-box;
+}
+
+h1{
+ font-family: 'Source Sans Pro', sans-serif;
+ font-size :4.375rem;
+}
+
+h2{
+    font-size: 2.5em;
+    font-family: 'Pinyon Script', cursive;
+    color: goldenrod;
+    
+}
+
+h3{
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bolder;
+   
+}
+
+h5{
+    font-family: 'Pinyon Script', cursive;
+    color: goldenrod;
+    font-size: 1.5em;
+     
+}
+
+a{
+    font-size: smaller;
+    text-decoration: none;
+}
+
+nav{
+    color: white;  
+}
+
+main, .main_2{
+    width: 75%;
+    margin: auto;
+}
+
+p{
+    color: darkslategrey;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: smaller;
+}
+
+
+/*-----HEADER-----*/
+
+
+.a_header{
+    transition: all;
+    text-decoration-color: goldenrod;
+    transition-duration: 0.3s;
+    transition:ease; 
+    text-decoration: underline;
+}
+
+.head_2{
+    margin-top: 100px;
+    font-family: 'Pinyon Script', cursive;
+    font-size: 3.75rem;
+    color: goldenrod;
+}
+
+.head_3{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1,5rem;
+}
+
+.banniere_header {
+    background: url(img/eggs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 80vh;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+/*-----MAIN-----*/
+
+.background_image_1{
+    background: url(img/spices.jpg);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 100%;
+
+}
+
+.background_image_2{
+    background: url(img/oranges.jpg);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+}
+
+.gold_border1{
+    background:fixed;
+    outline-offset: 15px;
+    outline: 1px solid goldenrod;
+    position: absolute;
+    height: 270px;
+    width: 215px;
+    position: absolute;
+}
+
+.gold_border2{
+    
+    outline-offset: 15px;
+    outline: 1px solid goldenrod;
+  
+    position: absolute;
+    height: 270px;
+    width: 215px;
+}
+
+/*----section 2-----*/
+
+.menu{
+    width: 600px;
+    margin-top: 20px;
+}
+
+/*----section 3----*/
+
+.section_3_carre{
+  padding-top: 50px;
+   margin: auto;
+    width: 80%;
+    
+}
+
+.img_carre{
+    width: 350px;
+}
+
+/*---section 5---*/
+
+.banniere{
+    background: url(img/reservation.jpg);
+    filter: brightness(80%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 70vh;
+    width: auto;
+    margin-bottom: 20px; 
+    margin-top: -15px;
+
+}
+
+.btn_reservation{
+    background-color: goldenrod;
+    padding: 6px 40px;
+    font-size: smaller;
+  
+   
+}
+
+.background_image_3{
+    background: url(img/news-bg.jpg);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-position: top left;
+    width: 100%;
+}
+
+.section_6_recipes{
+    padding-bottom: 40px;
+}
+
+iframe{
+   width: 100%;
+    margin: auto;
+    padding: -50px;
+}
+
+footer{
+    background-color: darkslategrey;
+    opacity: 50%;
+    color: white ;
+    height: 60vh;
+    padding-bottom: 15px;
+    margin-top: -5px;
+
+}
+
+.background_image_3{
+    background: url(img/news-bg.jpg);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-position: top left;
+    width: 100%;
+}
+
+.background_image_4{
+    background: url(img/splash.png);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 60vh;
+    padding-bottom: 15px;
+    margin-top: -5px;
+}
+
+
+li{
+    font-size: smaller;
+    line-height: 2;
+}
+
+hr{
+    size: 20px;
+    color: rgb(71, 55, 12);
+    width: 20px;
+}
